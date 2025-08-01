@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   const JIRA_BASE_URL = process.env.JIRA_BASE_URL;
   const JIRA_EMAIL = process.env.JIRA_EMAIL;
   const JIRA_API_TOKEN = process.env.JIRA_API_TOKEN;
-  const customFieldId = "customfield_12345"; // troque pelo seu ID real
+  const customFieldId = "customfield_10878"; // troque pelo seu ID real
 
   const headers = {
     Authorization: `Basic ${Buffer.from(`${JIRA_EMAIL}:${JIRA_API_TOKEN}`).toString("base64")}`,
